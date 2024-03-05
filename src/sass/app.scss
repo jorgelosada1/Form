@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  .title {
+    margin-top: 20px;
+  }
+  
+  .tickets {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .contenedor {
+    width: 33vh;
+    padding: 0;
+  }
+  
+  .ticket-item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred; 
+  }

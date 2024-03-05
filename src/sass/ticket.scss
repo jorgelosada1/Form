@@ -1,0 +1,39 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo{
+    margin-top: 3vh;
+    width: 30vh;
+    height: 3vh;
+    border-radius: 8px;
+    border: 1px solid;
+}
+.prioridad{
+    margin-top: 1vh;
+    width: 31vh;
+    height: 3vh;
+    border-radius: 8px;
+}
+.textera{
+    margin-top: 1vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 8px;
+}
+.resuelto{
+    margin-right: 70%;
+    margin-top: 1vh;
+}
+.boton{
+    margin-top: 2vh;
+    width: 30vh;
+    height: 4vh;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color: rgb(44, 143, 224);  
+    color: aliceblue;
+}
